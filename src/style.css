@@ -12,6 +12,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+
   
     }
 
@@ -19,6 +20,11 @@
         
         margin: 5px !important;
        
+    }
+
+    p {
+        font-size: 30px;
+        text-align:center;
     }
 
     h1 {
@@ -51,7 +57,41 @@
     .App button{
         width: 75px;
     }
+
     .session {
         grid-column: 3;  
         grid-row: 1;
     }
+
+    #sess {
+       margin-left: 150px;
+    }
+
+    #sess button {
+        width: 50px;
+
+    }
+
+    #brea {
+        margin-right: 150px;
+    }
+
+    #brea button {
+        width: 50px;
+    }
+
+    #flex-b {
+        display:flex;
+        flex-direction: row;
+    }
+
+    #flex-s {
+        display:flex;
+        flex-direction: row;
+    }
+
+    #start_stop,#reset {
+        margin-left:15px !important;
+    }
+    
+   
