@@ -18,7 +18,11 @@
   },
   "homepage": "https://github.com/iCarolinei/pomodoro-react#readme",
   "dependencies": {
+    "mom": "0.0.0",
+    "moment": "^2.29.1",
+    "moment-duration-format": "^2.3.2",
     "react": "^17.0.1",
+    "react-bootstrap": "^1.4.3",
     "react-dom": "^17.0.1"
   },
   "devDependencies": {
@@ -40,9 +44,7 @@
     "*.json": [
       "npx prettier --write"
     ],
-    "*.js": [
-      "npx eslint --fix --cache"
-    ]
+    "*.js": []
   },
   "husky": {
     "hooks": {
