@@ -1,7 +1,6 @@
 import moment from "moment";
 import momentDurationFormatSetup from "moment-duration-format";
 import React from "react";
-import 'bootstrap/dist/css/bootstrap.css';
 
 momentDurationFormatSetup (moment)
 
