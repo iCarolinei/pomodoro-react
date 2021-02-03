@@ -44,15 +44,12 @@
         grid-row: 1;
     }
     .App {
+        grid-column: 2;  
+        grid-row: 1; 
         border: 1px solid white;
         border-radius: 50%;
         padding: 25px 75px 25px 75px;
-        /* opacity: 60%; */
         background-color: grey;
-        grid-column: 2;  
-        grid-row: 1;
-        
-     
     }
     .App button{
         width: 75px;
