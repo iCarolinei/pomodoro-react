@@ -13,8 +13,8 @@ const Break = ({
     <div id="brea">
     <p id="break-label">Break</p>  
     <p id="break-lenght">{breakLengthInMinute}</p>
-    <div id="flex-b"><button disabled={!enabledButton} className="btn btn-primary" id="break-decrement" onClick={decrementBreakLengthByOneMinute}>-</button>
-    <button disabled={!enabledButton} className="btn btn-primary" id="break-increment" onClick={incrementBreakLengthByOneMinute}>+</button></div>
+    <div id="flex-b"></div> <button disabled={!enabledButton} className="btn btn-primary" id="break-decrement" onClick={decrementBreakLengthByOneMinute}>-</button>
+    <button disabled={!enabledButton} className="btn btn-primary" id="break-increment" onClick={incrementBreakLengthByOneMinute}>+</button>
 
     </div>
     );
