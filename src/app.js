@@ -3,7 +3,6 @@ import Break from "./components/Break";
 import Session from "./components/Session";
 import TimeLeft from "./components/TimeLeft";
 import { Modal, Button } from "react-bootstrap";
-import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
     const [currentSessionType, setCurrentSessionType] = useState("Session");
