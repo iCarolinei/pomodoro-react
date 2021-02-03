@@ -1,5 +1,7 @@
 import moment from "moment";
 import React from "react";
+import 'bootstrap/dist/css/bootstrap.css';
+
 
 const Break = ({
     breakLenght,
