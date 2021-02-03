@@ -21,6 +21,7 @@
   "homepage": "https://github.com/iCarolinei/pomodoro-react#readme",
   "dependencies": {
     "boostrap": "^2.0.0",
+    "bootstrap": "^4.6.0",
     "mom": "0.0.0",
     "moment": "^2.29.1",
     "moment-duration-format": "^2.3.2",
